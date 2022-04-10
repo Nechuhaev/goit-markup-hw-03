@@ -17,6 +17,8 @@ body {
 
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 
@@ -94,6 +96,9 @@ text-decoration: none;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #FFFFFF;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .button {
@@ -110,6 +115,9 @@ text-decoration: none;
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
   color: var(--primary-button-text-color);
+  text-align: center;
+  padding: 10px 32px;
+  border-radius: 4px;
 }
 
 .pointer {
@@ -123,6 +131,8 @@ text-decoration: none;
 .projects-title,
 .filtr-name {
   visibility: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 .features {}
