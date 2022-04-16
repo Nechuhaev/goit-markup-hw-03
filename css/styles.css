@@ -202,6 +202,10 @@ ul {
   overflow: hidden;
 }
 
+.section-features {
+padding-bottom: 0;
+}
+
 .features {
   display: flex;
   flex-wrap: wrap;
@@ -232,7 +236,7 @@ ul {
 
 /* Works */
 .section-works {
-  padding-bottom: 0;
+  /* padding-bottom: 0; */
 }
 
 .works-title {
